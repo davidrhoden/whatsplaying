@@ -1,0 +1,13 @@
+<section class="painting-grid">
+	{% for painting in paintingslist | reverse %}
+		<article{% if painting.url == url %} data-current="current item"{% endif %}>
+			<a href="{{ painting.url | url }}">
+			{% if painting.data.image %}
+				<figure>
+					<img src="{{ painting.data.image }}" alt="{{ painting.data.title }} painting by David Rhoden">
+				</figure>
+			{% endif %}
+			</a>
+		</article>
+	{% endfor %}
+</section>
