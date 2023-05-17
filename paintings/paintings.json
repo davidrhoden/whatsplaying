@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/painting.njk",
+  "permalink": "paintings/{{ title | slug }}/index.html",
+  "author": "David Rhoden",
+  "tags": [
+    "paintings"
+  ]
+}
