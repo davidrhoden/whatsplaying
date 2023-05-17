@@ -1,7 +1,7 @@
 {
   "name": "whatshappening",
   "version": "1.0.0",
-  "description": "Future home of an experimental site that will use (I hope) The Movie Database API to create a movie calendar to see if the one expected user wants to watch a movie tonight or not, and, if so, which one.",
+  "description": "Art by David Rhoden",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidrhoden/whatsplaying"
+    "url": "https://github.com/davidrhoden/thisismyhappening-2023"
   },
   "author": {
     "name": "David Rhoden",
@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidrhoden/whatsplaying/issues"
+    "url": "https://github.com/davidrhoden/thisismyhappening-2023/issues"
   },
-  "homepage": "https://github.com/davidrhoden/whatsplaying",
+  "homepage": "https://github.com/davidrhoden/thisismyhappening-2023",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "luxon": "^2.3.0",
@@ -32,6 +32,7 @@
     "@11ty/eleventy-navigation": "^0.3.2",
     "clean-css": "^5.2.4",
     "html-minifier": "^4.0.0",
+    "netlify-cli": "^12.12.0",
     "uglify-js": "^3.15.1"
   }
 }
