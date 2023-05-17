@@ -1,10 +1,10 @@
 ---
 layout: layouts/blog.njk
-title: Blog
-metaDescription: A sample Blog page listing various posts and authors.
+title: News
+metaDescription: Whaatever counts as news.
 date: 2017-01-01
-permalink: /blog/index.html
+permalink: /news/index.html
 eleventyNavigation:
-  key: Blog
+  key: News
   order: 2
 ---
