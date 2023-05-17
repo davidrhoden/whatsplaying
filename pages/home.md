@@ -1,12 +1,11 @@
 ---
 layout: layouts/home.njk
-title: Home
-date: 2022-08-08T01:21:00.000Z
+title: "This Is My Happening: Art by David Rhoden"
+date: 2023-05-16T01:21:00.000Z
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+# "This is my happening, and it freaks me out!"
 
-Future home of an experimental site that will use (I hope) The Movie Database API to create a "movie calendar" to see if the one expected user wants to watch a movie tonight or not, and, if so, which one.
