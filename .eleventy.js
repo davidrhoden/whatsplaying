@@ -37,6 +37,20 @@ module.exports = function(eleventyConfig) {
     }, {});
   });
 
+  eleventyConfig.addCollection("paintings", function(collection) {
+    const coll = collection.getFilteredByTag("paintings");
+
+      for(let i = 0; i < coll.length ; i++) {
+      const prevPainting = coll[i - 1];
+      const nextPainting = coll[i + 1];
+
+      coll[i].data["prevPainting"] = prevPainting;
+      coll[i].data["nextPainting"] = nextPainting;
+    }
+
+    return coll;
+  });
+
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
